@@ -5,19 +5,19 @@ Personal Android training-plan app for a Pixel 7a using Kotlin, Jetpack Compose,
 ## How To Use
 
 1. Open the project in Android Studio.
-2. Run the app on an emulator or your Pixel 7a.
-3. Open `Settings`.
-4. Add Strava client ID and client secret.
-5. Tap `Authorize Strava`.
-6. Tap `Sync Strava activities`.
-7. Add a Google AI API key.
-8. Tap `Load available models`.
-9. Select a model. Gemma models are recommended if Gemini models are unavailable for your key.
-10. Tap `Test selected model`.
-11. Open `Coach`.
-12. Enter race distance, target time, race date, and training days.
-13. Generate the plan.
-14. Open `Plan` to view the generated week-by-week workouts.
+2. Connect your phone by usb, and run the app from Android Studio.
+3. Open `Settings` in the app.
+4. Add Strava client ID and client secret, see Strava setup for further details.
+6. Tap `Authorize Strava`.
+7. Tap `Sync Strava activities`.
+8. Add a Google AI API key, see Google AI Setup for further details.
+9. Tap `Load available models`.
+10. Select a model. Gemma models are recommended if Gemini models are unavailable for your key.
+11. Tap `Test selected model`.
+12. Open `Coach`.
+13. Enter race distance, target time, race date, and training days.
+14. Generate the plan.
+15. Open `Plan` to view the generated week-by-week workouts.
 
 ## Strava Setup
 
@@ -84,11 +84,6 @@ Race date uses ISO format:
 2026-09-13
 ```
 
-Generated workouts use a display-focused format with:
-
-- Short title, e.g. `4 x 4 min, pace: 3:40/km`.
-- Body instructions with total distance, recoveries, and execution notes.
-- Olympiatoppen intensity zone, e.g. `I-4/I-5`.
 
 ## Build Commands
 
