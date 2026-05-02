@@ -1,6 +1,6 @@
 # trAIn
 
-Personal Android training-plan app for a Pixel 7a using Kotlin, Jetpack Compose, Room, Strava, and Google AI JSON output.
+Personal Android training-plan app using Kotlin, Jetpack Compose, Room for DB, Strava API, and Googles API JSON.
 
 ## How To Use
 
